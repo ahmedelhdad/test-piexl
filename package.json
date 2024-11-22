@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+      "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon server.js",
+        "format:check": "prettier --check src/**/*.js",
+        "format:fix": "prettier --write src/**/*.js"
+    }
+}
